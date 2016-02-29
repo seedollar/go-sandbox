@@ -18,7 +18,7 @@ func main() {
 	audi := Car{"Audi", "A6", 2013}
 	// Composite iternal using argument name (any order)
 	bmw := Car{model: "M3", make: "BMW", year: 2014}
-	// Use new keyword to create zeroed instance
+	// Use new keyword to create zeroed instance/home/seedollar
 	merc := new(Car)
 	merc.model = "Bluetec"
 	merc.make = "Mercedez-Benz"
